@@ -1,9 +1,9 @@
 {
   "format-version" : 2,
-  "table-uuid" : "01c650c6-207c-4e6f-823b-3f07c3efeb0d",
+  "table-uuid" : "91585e47-8f22-47bc-912c-fb0b3f25e3aa",
   "location" : "./warehouse/db/table",
   "last-sequence-number" : 0,
-  "last-updated-ms" : 1737371667171,
+  "last-updated-ms" : 1737387444517,
   "last-column-id" : 2,
   "current-schema-id" : 0,
   "schemas" : [ {

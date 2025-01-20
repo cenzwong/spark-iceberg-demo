@@ -1,9 +1,9 @@
 {
   "format-version" : 2,
-  "table-uuid" : "63c54406-1018-4f3c-a579-9ecc04db6d02",
+  "table-uuid" : "08d6fd57-9bd0-4435-81aa-e4b8ae4cba5a",
   "location" : "./warehouse/db/table2",
   "last-sequence-number" : 1,
-  "last-updated-ms" : 1737375936269,
+  "last-updated-ms" : 1737387578187,
   "last-column-id" : 1,
   "current-schema-id" : 0,
   "schemas" : [ {
@@ -31,20 +31,20 @@
     "owner" : "codespace",
     "write.parquet.compression-codec" : "zstd"
   },
-  "current-snapshot-id" : 9004365069020881961,
+  "current-snapshot-id" : 2770588275783966595,
   "refs" : {
     "main" : {
-      "snapshot-id" : 9004365069020881961,
+      "snapshot-id" : 2770588275783966595,
       "type" : "branch"
     }
   },
   "snapshots" : [ {
     "sequence-number" : 1,
-    "snapshot-id" : 9004365069020881961,
-    "timestamp-ms" : 1737375936269,
+    "snapshot-id" : 2770588275783966595,
+    "timestamp-ms" : 1737387578187,
     "summary" : {
       "operation" : "append",
-      "spark.app.id" : "local-1737373199348",
+      "spark.app.id" : "local-1737387438351",
       "added-data-files" : "2",
       "added-records" : "10",
       "added-files-size" : "868",
@@ -56,18 +56,18 @@
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0",
       "engine-version" : "3.5.4",
-      "app-id" : "local-1737373199348",
+      "app-id" : "local-1737387438351",
       "engine-name" : "spark",
       "iceberg-version" : "Apache Iceberg 1.7.1 (commit 4a432839233f2343a9eae8255532f911f06358ef)"
     },
-    "manifest-list" : "warehouse/db/table2/metadata/snap-9004365069020881961-1-8b8ff678-25cd-4cc4-97ca-24109c61a3a0.avro",
+    "manifest-list" : "warehouse/db/table2/metadata/snap-2770588275783966595-1-8c849961-4cef-4538-91c1-05ea2875c461.avro",
     "schema-id" : 0
   } ],
   "statistics" : [ ],
   "partition-statistics" : [ ],
   "snapshot-log" : [ {
-    "timestamp-ms" : 1737375936269,
-    "snapshot-id" : 9004365069020881961
+    "timestamp-ms" : 1737387578187,
+    "snapshot-id" : 2770588275783966595
   } ],
   "metadata-log" : [ ]
 }

@@ -1,9 +1,9 @@
 {
   "format-version" : 2,
-  "table-uuid" : "01c650c6-207c-4e6f-823b-3f07c3efeb0d",
+  "table-uuid" : "91585e47-8f22-47bc-912c-fb0b3f25e3aa",
   "location" : "./warehouse/db/table",
-  "last-sequence-number" : 0,
-  "last-updated-ms" : 1737371760563,
+  "last-sequence-number" : 1,
+  "last-updated-ms" : 1737387446666,
   "last-column-id" : 2,
   "current-schema-id" : 0,
   "schemas" : [ {
@@ -36,14 +36,46 @@
     "owner" : "codespace",
     "write.parquet.compression-codec" : "zstd"
   },
-  "current-snapshot-id" : -1,
-  "refs" : { },
-  "snapshots" : [ ],
+  "current-snapshot-id" : 8492778904122201325,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 8492778904122201325,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 8492778904122201325,
+    "timestamp-ms" : 1737387446666,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1737387438351",
+      "added-data-files" : "2",
+      "added-records" : "3",
+      "added-files-size" : "1260",
+      "changed-partition-count" : "1",
+      "total-records" : "3",
+      "total-files-size" : "1260",
+      "total-data-files" : "2",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.4",
+      "app-id" : "local-1737387438351",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.7.1 (commit 4a432839233f2343a9eae8255532f911f06358ef)"
+    },
+    "manifest-list" : "warehouse/db/table/metadata/snap-8492778904122201325-1-6c2133c8-1278-4db8-be5a-65de112f22c9.avro",
+    "schema-id" : 0
+  } ],
   "statistics" : [ ],
   "partition-statistics" : [ ],
-  "snapshot-log" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1737387446666,
+    "snapshot-id" : 8492778904122201325
+  } ],
   "metadata-log" : [ {
-    "timestamp-ms" : 1737371667171,
+    "timestamp-ms" : 1737387444517,
     "metadata-file" : "warehouse/db/table/metadata/v1.metadata.json"
   } ]
 }
