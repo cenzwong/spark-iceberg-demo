@@ -1,0 +1,133 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "63c54406-1018-4f3c-a579-9ecc04db6d02",
+  "location" : "./warehouse/db/table2",
+  "last-sequence-number" : 3,
+  "last-updated-ms" : 1737376035956,
+  "last-column-id" : 1,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "long"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "codespace",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 4283471417882932720,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 4283471417882932720,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 9004365069020881961,
+    "timestamp-ms" : 1737375936269,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1737373199348",
+      "added-data-files" : "2",
+      "added-records" : "10",
+      "added-files-size" : "868",
+      "changed-partition-count" : "1",
+      "total-records" : "10",
+      "total-files-size" : "868",
+      "total-data-files" : "2",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.4",
+      "app-id" : "local-1737373199348",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.7.1 (commit 4a432839233f2343a9eae8255532f911f06358ef)"
+    },
+    "manifest-list" : "warehouse/db/table2/metadata/snap-9004365069020881961-1-8b8ff678-25cd-4cc4-97ca-24109c61a3a0.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 2,
+    "snapshot-id" : 8767733241773794121,
+    "timestamp-ms" : 1737375975507,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1737373199348",
+      "added-data-files" : "2",
+      "added-records" : "10",
+      "added-files-size" : "868",
+      "changed-partition-count" : "1",
+      "total-records" : "10",
+      "total-files-size" : "868",
+      "total-data-files" : "2",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.4",
+      "app-id" : "local-1737373199348",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.7.1 (commit 4a432839233f2343a9eae8255532f911f06358ef)"
+    },
+    "manifest-list" : "warehouse/db/table2/metadata/snap-8767733241773794121-1-fa7d9279-cdd5-437f-9b9b-e11adae550d3.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 3,
+    "snapshot-id" : 4283471417882932720,
+    "timestamp-ms" : 1737376035956,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1737373199348",
+      "added-data-files" : "2",
+      "added-records" : "10",
+      "added-files-size" : "868",
+      "changed-partition-count" : "1",
+      "total-records" : "10",
+      "total-files-size" : "868",
+      "total-data-files" : "2",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.4",
+      "app-id" : "local-1737373199348",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.7.1 (commit 4a432839233f2343a9eae8255532f911f06358ef)"
+    },
+    "manifest-list" : "warehouse/db/table2/metadata/snap-4283471417882932720-1-e0a4bbee-c79c-40be-9c74-11fb582936da.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1737375936269,
+    "snapshot-id" : 9004365069020881961
+  }, {
+    "timestamp-ms" : 1737375975507,
+    "snapshot-id" : 8767733241773794121
+  }, {
+    "timestamp-ms" : 1737376035956,
+    "snapshot-id" : 4283471417882932720
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1737375936269,
+    "metadata-file" : "warehouse/db/table2/metadata/v1.metadata.json"
+  }, {
+    "timestamp-ms" : 1737375975507,
+    "metadata-file" : "warehouse/db/table2/metadata/v2.metadata.json"
+  } ]
+}

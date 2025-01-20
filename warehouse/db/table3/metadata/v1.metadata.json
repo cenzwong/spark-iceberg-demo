@@ -1,0 +1,73 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "e42c7638-e987-445c-bc9f-683cb4680552",
+  "location" : "./warehouse/db/table3",
+  "last-sequence-number" : 1,
+  "last-updated-ms" : 1737375980532,
+  "last-column-id" : 1,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "long"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "codespace",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 6217366061349987908,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 6217366061349987908,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 6217366061349987908,
+    "timestamp-ms" : 1737375980532,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1737373199348",
+      "added-data-files" : "2",
+      "added-records" : "10",
+      "added-files-size" : "868",
+      "changed-partition-count" : "1",
+      "total-records" : "10",
+      "total-files-size" : "868",
+      "total-data-files" : "2",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.4",
+      "app-id" : "local-1737373199348",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.7.1 (commit 4a432839233f2343a9eae8255532f911f06358ef)"
+    },
+    "manifest-list" : "warehouse/db/table3/metadata/snap-6217366061349987908-1-5bd2104d-f258-4519-b301-edc36d832002.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1737375980532,
+    "snapshot-id" : 6217366061349987908
+  } ],
+  "metadata-log" : [ ]
+}
